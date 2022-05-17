@@ -10,15 +10,17 @@ const Home = () => {
 
             <video src={backgroundVid} autoPlay loop muted />
             <div className="home-contents-div">
-                <Navbar />
-                <div>
+                <div className="navbar-home-div">
+                    <Navbar />
+                </div>
+                <div className="others-home-div">
                     <p>
-                        Hello, My name is  <span className="name-span">Rafat</span>
+                    <span className="name-span">Hello</span>, My name is  <span className="name-span">Rafat</span>
                     </p>
                     <p>
-                        I'm a <span className="name-span">Full Stack Web Developer</span>
+                        && I'm a <span className="name-span">Full Stack Web Developer</span>
                     </p>
-                    <div>
+                    <div className="home-page-links">
                         <Link to="/aboutMe">About Me</Link>
                         <Link to="/technologies">Technologies</Link>
                         <Link to="/projects">Projects</Link>

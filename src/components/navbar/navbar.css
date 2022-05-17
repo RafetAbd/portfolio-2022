@@ -1,3 +1,12 @@
 .navbar-main-div {
-    background-color: transparent;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.logo-link {
+    margin-right: auto;
 }
