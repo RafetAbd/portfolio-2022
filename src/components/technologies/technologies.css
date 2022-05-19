@@ -10,17 +10,19 @@ h1 {
 .tech-list {
     margin-bottom: 5%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .single-tech-div {
+    width:30%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     align-items:center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .single-tech-div > p {

@@ -7,7 +7,7 @@ const Technologies = () => {
     return (
         <div className="tech-main-div">
             <Navbar />
-            <h1>Technologies I enjoy working with</h1>
+            <h1>Technologies / Languages I enjoy working with</h1>
             <div className="tech-list">
                 <div className="single-tech-div">
                     <p><span className="tech-span">R</span>eact</p>
@@ -40,6 +40,22 @@ const Technologies = () => {
                 <div className="single-tech-div">
                     <p><span className="tech-span">J</span>SON Web Token</p>
                     <img src='/icons8-json-web-token-520.png' alt="JWT" className="tech-img" />
+                </div>
+                <div className="single-tech-div">
+                    <p><span className="tech-span">G</span>it</p>
+                    <img src='/PngItem_1419097.png' alt="git" className="tech-img" />
+                </div>
+                <div className="single-tech-div">
+                    <p><span className="tech-span">J</span>avascript</p>
+                    <img src='/PngItem_1718042.png' alt="javascript" className="tech-img" />
+                </div>
+                <div className="single-tech-div">
+                    <p><span className="tech-span">H</span>TML</p>
+                    <img src='/PngItem_4640079.png' alt="html" className="tech-img" />
+                </div>
+                <div className="single-tech-div">
+                    <p><span className="tech-span">C</span>ss</p>
+                    <img src='/PngItem_1985012.png' alt="css" className="tech-img" />
                 </div>
             </div>
         </div>

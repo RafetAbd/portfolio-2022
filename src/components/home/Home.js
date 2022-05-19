@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import backgroundVid from '../../assests/portfolio-home-vid.mp4'
 import Contact from "../contact/Contact";
 import * as Scroll from 'react-scroll';
-let ScrollLink  = Scroll.Link;
+let ScrollLink = Scroll.Link;
 
 
 const Home = () => {
@@ -30,13 +30,13 @@ const Home = () => {
                         <Link to="/technologies" className="homepage-single-link">Tech Stack</Link>
                         <Link to="/projects" className="homepage-single-link">Projects</Link>
                         <ScrollLink to="contact" className="homepage-single-link"
-            spy={true} smooth={true} offset={50} duration={500} activeClass="active"
-            >Contact</ScrollLink>
+                            spy={true} smooth={true} offset={50} duration={500} activeClass="active"
+                        >Contact</ScrollLink>
                     </div>
                 </div>
 
             </div>
-            
+
             <Contact />
         </div>
     );

@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import { Link } from "react-router-dom";
 import './aboutMe.css';
 
 const AboutMe = () => {
@@ -10,12 +9,13 @@ const AboutMe = () => {
             <div className="texts-div">
                 <h1>Who I am</h1>
                 <div className="who-i-am-div">
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    <p>
+                        <span className="hi-span">Hi</span>, I'm Rafet Abdalgalil, a full-stack web developer and a former PBM operations consultant. I worked in healthcare, education, and business operations fields.<br/><br/>
+                        I have a passion for creating and building web applications. I'm a self-motivated person, and a fast learner and I'm always looking for new ways to improve myself.<br/><br/>
+                        I came to the USA in 2015 as a refugee and currently living in Arizona. when I'm not trying to learn something new or improving my skills, I'm usually watching movies/series, listening to music, or hiking.
+                    </p>
                     <img src='/IMG_5966.jpeg' alt="rafet" className="rafet-img" />
                 </div>
-                <h1><Link to="/contact" className="resume-link">Resume</Link></h1>
             </div>
         </div>
     );
