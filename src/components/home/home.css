@@ -59,6 +59,10 @@ video {
 }
 
 .homepage-single-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
     text-decoration: none;
     color: #FFFFFF;
     text-shadow: #121212 0px 0px 10px;
@@ -72,5 +76,10 @@ video {
     cursor: pointer;
     border: #FFFFFF 1px solid;
     color: #FFFFFF;
+}
+
+.arrow-image {
+    width: 15%;
+    margin-left: 10%;
 }
 

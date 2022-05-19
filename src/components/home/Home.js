@@ -1,7 +1,7 @@
 import React from "react";
 import './home.css';
 import Navbar from '../navbar/Navbar';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import backgroundVid from '../../assests/portfolio-home-vid.mp4'
 import Contact from "../contact/Contact";
 import * as Scroll from 'react-scroll';
@@ -26,12 +26,12 @@ const Home = () => {
                         && I'm a <span className="name-span">Full Stack Web Developer</span>
                     </p>
                     <div className="home-page-links">
-                        <Link to="/aboutMe" className="homepage-single-link">My Story</Link>
+                        {/* <Link to="/aboutMe" className="homepage-single-link">My Story</Link>
                         <Link to="/technologies" className="homepage-single-link">Tech Stack</Link>
-                        <Link to="/projects" className="homepage-single-link">Projects</Link>
+                        <Link to="/projects" className="homepage-single-link">Projects</Link> */}
                         <ScrollLink to="contact" className="homepage-single-link"
                             spy={true} smooth={true} offset={50} duration={500} activeClass="active"
-                        >Contact</ScrollLink>
+                        >Contact<img src="/PngItem_3677929.png" alt="arrow" className="arrow-image"/> </ScrollLink>
                     </div>
                 </div>
 
