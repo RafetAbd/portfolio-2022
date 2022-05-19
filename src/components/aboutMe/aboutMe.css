@@ -1,3 +1,67 @@
 .aboutme-main-div {
-    height: 100vh;
+    height: 100%;
+    color: #FFFFFF;
  }
+
+ .who-i-am-div > p {
+    width: 50%;
+    font-size: 1.5em;
+    text-shadow: #121212 0px 0px 10px;
+}
+
+.texts-div {
+    margin-top: 5%;
+}
+
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h1:before,
+h1:after {
+  background-color: #ff0000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.who-i-am-div {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    border-radius: 2%;
+    margin-top: 5%;
+    margin-left: auto;
+    box-shadow: #121212 5px 5px 20px;
+}
+
+.resume-link {
+    margin-left: auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: #121212 0px 0px 20px;
+}
+
+

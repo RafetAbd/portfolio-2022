@@ -1,0 +1,59 @@
+.projects-main-div {
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.projects-list {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-project-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start ;
+    margin: 5%
+}
+
+.project-span {
+    color: red;
+    font-size: 1.5em;
+}
+
+.single-project-title-text-div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.single-project-title {
+    font-size: 2em;
+    text-shadow: #121212 0px 0px 20px;
+}
+
+.single-project-text {
+    font-size: 1.2em;
+    text-shadow: #121212 0px 0px 20px;
+
+}
+
+.project-img {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.image-projects {
+    margin-top: 2%;
+}
+
+hr {
+    width: 50%;
+    border-color: red;
+}
