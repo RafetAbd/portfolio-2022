@@ -18,13 +18,14 @@ const Contact = () => {
                     <a href="mailto:rafetalani@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-links">
                         <img src="/PngItem_118628.png" alt="gmail" className="contact-img" />
                     </a>
-                    <p className="video-attribute"> Home page video by
+                    
+                </div>
+                <p className="video-attribute"> Home page video by
                         <a href="https://www.pexels.com/video/a-person-busy-working-on-his-laptop-5495788/" target="_blank" rel="noopener noreferrer" className="pavel-link">
                             <span> Pavel Danilyuk </span>
                         </a>
                         from Pexels
                     </p>
-                </div>
             </div>
     )
 }

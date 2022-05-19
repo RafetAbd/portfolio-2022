@@ -1,9 +1,26 @@
 .navbar-main-div {
-    
+    display: flex;
+}
+
+.btn {
+    position: absolute;
+    display: none;
+    right: 0%;
+    top: 0%;
+    color: hsl(0, 100%, 50%);
+    background-color: hsla(0, 0%, 7%, 0.535) ;
+    text-shadow: #121212 0px 0px 10px;
+    font-size: 1.5em;
+}
+
+.navbar-main {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    top: 0;
+    right: 0;
 
 }
 
@@ -15,18 +32,47 @@
     margin-top: 1%;
     font-weight: bold;
     text-shadow: #121212 0px 0px 10px;
-
 }
 
 .logo-link > p {
     letter-spacing: 0.6em;
+    
 }
 
 .navbar-links {
     text-decoration: none;
-    margin-right: 1%;
+    margin-right: 5%;
     font-size: 1.5em;
     color: #FFFFFF;
     text-shadow: #121212 0px 0px 10px;
+}
 
+.btn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .btn {
+        position: relative;
+        display: block;
+        border: hwb(0 0% 100%) 1px solid;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .navbar-main {
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
+
+    .navbar-links {
+        width: 100%;
+        text-align: center;
+        border: hwb(0 0% 100%) 1px solid;
+        margin-right: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: rgba(18, 18, 18, 0.324);
+    }
 }

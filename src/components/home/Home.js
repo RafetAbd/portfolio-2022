@@ -31,7 +31,7 @@ const Home = () => {
                         <Link to="/projects" className="homepage-single-link">Projects</Link> */}
                         <ScrollLink to="contact" className="homepage-single-link"
                             spy={true} smooth={true} offset={50} duration={500} activeClass="active"
-                        >Contact<img src="/PngItem_3677929.png" alt="arrow" className="arrow-image"/> </ScrollLink>
+                        >Contact<img src="/arrow-211-512.png" alt="arrow" className="arrow-image"/> </ScrollLink>
                     </div>
                 </div>
 

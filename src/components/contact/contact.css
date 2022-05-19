@@ -42,10 +42,33 @@
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+    position: relative;
+    bottom: 0;
 }
 
 .pavel-link {
     color: red;
     text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-main-div > p {
+        font-size: 1.5em;
+    }
+
+    .contact-links {
+        width: 10%;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .video-attribute {
+        font-size: 1em;
+        font-weight: normal;
+        text-decoration: none;
+        text-align: center;
+        
+    }
 }
 

@@ -1,7 +1,8 @@
 .aboutme-main-div {
     height: 100vh;
     color: #FFFFFF;
-    
+    min-height: 100%;
+    overflow-y: scroll;
  }
 
  .who-i-am-div > p {
@@ -52,6 +53,7 @@ h1:after {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    height: 100%;
 }
 
 img {
@@ -69,6 +71,41 @@ img {
     color: #FFFFFF;
     font-weight: bold;
     text-shadow: #121212 0px 0px 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .who-i-am-div > p {
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: #121212 0px 0px 10px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .who-i-am-div {
+    /* margin: 5%; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .who-i-am-div > p {
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    text-shadow: #121212 0px 0px 10px;
+    text-align: justify;
+  }
+
+  img {
+    width: 40%;
+    height: 40%;
+    border-radius: 2%;
+    /* margin-top: 2%; */
+    margin-left: auto;
+    box-shadow: #121212 5px 5px 20px;
+}
 }
 
 

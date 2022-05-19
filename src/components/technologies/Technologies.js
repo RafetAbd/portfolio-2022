@@ -7,7 +7,7 @@ const Technologies = () => {
     return (
         <div className="tech-main-div">
             <Navbar />
-            <h1>Technologies / Languages I enjoy working with</h1>
+            <p className="tech-title">Tech Stack</p>
             <div className="tech-list">
                 <div className="single-tech-div">
                     <p><span className="tech-span">R</span>eact</p>
