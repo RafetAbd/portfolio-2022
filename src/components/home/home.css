@@ -1,9 +1,9 @@
 .home-main-div {
     color : #FFFFFF;
-    background-color: #121212;
+    background: linear-gradient(to bottom, #282828 0%, #404040 100%) no-repeat;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 video {
@@ -54,7 +54,7 @@ video {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 10%;
 
 }
 
@@ -63,7 +63,14 @@ video {
     color: #FFFFFF;
     text-shadow: #121212 0px 0px 10px;
     font-size: 2em;
-    padding: 1.5%;
+    padding: 1%;
     box-shadow: white 0px 0px 10px;
     border-radius: 10px;
 }
+
+.homepage-single-link:hover {
+    cursor: pointer;
+    border: #FFFFFF 1px solid;
+    color: #FFFFFF;
+}
+
