@@ -22,15 +22,18 @@ const Navbar = () => {
                 <p>RAFET</p>
                 <p>ABDALGALIL</p>
             </Link>
+            <div className="btn-links-div">
             {( toggle || screensize > 700 ) && (
                 <nav className="navbar-main" >
                     <Link to="/aboutMe" className="navbar-links">About</Link>
                     <Link to="/technologies" className="navbar-links">Technologies</Link>
                     <Link to="/projects" className="navbar-links">Projects</Link>
-                    <a href="Rafet Abdalgalil resume.pdf" className="navbar-links" target="_blank">Resume</a>
+                    <a href="Rafet Abdalgalil - new resume.pdf" className="navbar-links" target="_blank">Resume</a>
                 </nav>
             )}
-            <button className="btn" onClick={handleToggle}>| | |</button>
+            <button className="btn" onClick={handleToggle}><img src="/PngItem_1784361.png" alt="three lines" /></button>
+
+        </div>
         </div>
     );
 };

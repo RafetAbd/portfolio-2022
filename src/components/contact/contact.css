@@ -50,11 +50,13 @@
 .pavel-link {
     color: red;
     text-decoration: none;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
     .contact-main-div > p {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        
     }
 
     .contact-links {
@@ -64,11 +66,9 @@
     }
 
     .video-attribute {
-        font-size: 1em;
         font-weight: normal;
         text-decoration: none;
-        text-align: center;
-        
+        padding-top: 5%;
     }
 }
 
