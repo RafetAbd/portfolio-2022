@@ -45,7 +45,7 @@ video {
 .name-span {
     font-size: 2em;
     font-weight: bold;
-    color: hwb(0 0% 0%);
+    color: red;
 }
 
 .home-page-links {

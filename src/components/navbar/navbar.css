@@ -27,7 +27,7 @@
 .logo-link {
     margin-right: auto;
     text-decoration: none;
-    color: hwb(0 0% 0%);
+    color: red;
     margin-left: 1%;
     margin-top: 1%;
     font-weight: bold;
@@ -36,7 +36,7 @@
 
 .logo-link > p {
     letter-spacing: 0.6em;
-    
+    color: red;
 }
 
 .navbar-links {
