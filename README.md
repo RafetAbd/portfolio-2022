@@ -14,4 +14,4 @@
 
 * Please feel free to contact me at [LinkedIn](https://www.linkedin.com/in/rafet-abdalgalil-46606a1a1/)
 
-* [![Netlify Status](https://api.netlify.com/api/v1/badges/2af3bdd2-f2a5-4d04-bc2b-04e1355f396e/deploy-status)](https://app.netlify.com/sites/rafet-abdalgalil-portfolio/deploys)
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/4be8247e-4637-4db7-acc4-4e7c9a9aaa06/deploy-status)](https://app.netlify.com/sites/rafet-abdalgalil-portfolio/deploys)
