@@ -10,10 +10,14 @@ let ScrollLink = Scroll.Link;
 
 
 const Home = () => {
+
     return (
         <div className="home-main-div">
-            <div className="video-div">
-                <video src={backgroundVid} autoPlay loop muted />
+            <div className="video-div" >
+                <video  autoPlay loop muted playsInline>
+                    <source src={backgroundVid} type="video/mp4" />
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
             <div className="home-contents-div">
                 <motion.div className="navbar-home-div"
@@ -25,23 +29,23 @@ const Home = () => {
                 </motion.div>
                 <div className="others-home-div">
                     <motion.p
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1, duration: 1 }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 1, duration: 1 }}
                     >
                         <span className="name-span">Hello</span>, My name is  <span className="name-span">Rafet</span>
                     </motion.p>
                     <motion.p
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 2.5, duration: 1 }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 2.5, duration: 1 }}
                     >
                         && I'm a <span className="name-span">Full Stack Web Developer</span>
                     </motion.p>
                     <motion.div className="home-page-links"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 4, duration: 1 }}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 4, duration: 1 }}
                     >
                         <ScrollLink to="contact" className="homepage-single-link"
                             spy={true} smooth={true} offset={50} duration={500} activeClass="active"
