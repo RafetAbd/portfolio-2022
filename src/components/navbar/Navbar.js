@@ -23,7 +23,7 @@ const Navbar = () => {
                 <p>ABDALGALIL</p>
             </Link>
             {( toggle || screensize > 700 ) && (
-                <nav className="navbar-main">
+                <nav className="navbar-main" >
                     <Link to="/aboutMe" className="navbar-links">About</Link>
                     <Link to="/technologies" className="navbar-links">Technologies</Link>
                     <Link to="/projects" className="navbar-links">Projects</Link>

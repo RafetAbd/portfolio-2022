@@ -51,6 +51,10 @@
     margin-left: 5%;
 }
 
+.project-img:hover {
+    box-shadow: #FFFFFF 0px 0px 20px;
+}
+
 .image-projects {
     margin-top: 2%;
 }
@@ -77,5 +81,9 @@ hr {
     hr {
         width: 100%;
         border-color: red;
+    }
+
+    .single-project-title {
+        font-size: 1.5em;
     }
 }

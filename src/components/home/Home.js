@@ -4,6 +4,7 @@ import Navbar from '../navbar/Navbar';
 // import { Link } from "react-router-dom";
 import backgroundVid from '../../assests/portfolio-home-vid.mp4'
 import Contact from "../contact/Contact";
+import { motion } from "framer-motion";
 import * as Scroll from 'react-scroll';
 let ScrollLink = Scroll.Link;
 
@@ -15,24 +16,37 @@ const Home = () => {
                 <video src={backgroundVid} autoPlay loop muted />
             </div>
             <div className="home-contents-div">
-                <div className="navbar-home-div">
+                <motion.div className="navbar-home-div"
+                    initial={{ y: -250 }}
+                    animate={{ y: 0 }}
+                    transition={{ delay: 0.2, type: 'spring', stiffness: 60 }}
+                >
                     <Navbar />
-                </div>
+                </motion.div>
                 <div className="others-home-div">
-                    <p>
+                    <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 1, duration: 1 }}
+                    >
                         <span className="name-span">Hello</span>, My name is  <span className="name-span">Rafet</span>
-                    </p>
-                    <p>
+                    </motion.p>
+                    <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 2.5, duration: 1 }}
+                    >
                         && I'm a <span className="name-span">Full Stack Web Developer</span>
-                    </p>
-                    <div className="home-page-links">
-                        {/* <Link to="/aboutMe" className="homepage-single-link">My Story</Link>
-                        <Link to="/technologies" className="homepage-single-link">Tech Stack</Link>
-                        <Link to="/projects" className="homepage-single-link">Projects</Link> */}
+                    </motion.p>
+                    <motion.div className="home-page-links"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 4, duration: 1 }}
+                    >
                         <ScrollLink to="contact" className="homepage-single-link"
                             spy={true} smooth={true} offset={50} duration={500} activeClass="active"
-                        >Contact<img src="/arrow-211-512.png" alt="arrow" className="arrow-image"/> </ScrollLink>
-                    </div>
+                        >Contact<img src="/arrow-211-512.png" alt="arrow" className="arrow-image" /> </ScrollLink>
+                    </motion.div>
                 </div>
 
             </div>
