@@ -27,16 +27,16 @@ const Contact = () => {
 
             </div>
             <hr />
-            <p className="video-attribute">Home page video by
+            <p id="video-attribute">Home page video by
                 <a href="https://www.pexels.com/video/a-person-busy-working-on-his-laptop-5495788/" target="_blank" rel="noopener noreferrer" className="pavel-link">
                     <span> Pavel Danilyuk </span>
                 </a>
                 from Pexels
             </p>
             <hr />
-            <p className="video-attribute">github repo
+            <p id="video-attribute">github repo
                 <a href="https://github.com/RafetAbd/portfolio-2022" target="_blank" rel="noopener noreferrer" className="pavel-link">
-                    <span> My Portfolio </span>
+                    <span> portfolio-2022 </span>
                 </a>
                 by Rafet Abdalgalil
             </p>

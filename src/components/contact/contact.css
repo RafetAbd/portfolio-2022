@@ -15,7 +15,7 @@
 }
 
 .contact-links {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width: 3%;
     padding-bottom: 1%;
     padding-right: 1%;
@@ -38,8 +38,8 @@
     box-shadow: none;
 }
 
-.video-attribute {
-    font-size: 1.2em;
+#video-attribute {
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -65,10 +65,11 @@
         margin-bottom: 10%;
     }
 
-    .video-attribute {
+    #video-attribute {
         font-weight: normal;
         text-decoration: none;
         padding-top: 5%;
+        font-size: 1em;
     }
 }
 
