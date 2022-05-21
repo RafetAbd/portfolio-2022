@@ -12,7 +12,7 @@ const Technologies = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            >Tech Stack</motion.p>
+            >Skills</motion.p>
             <div className="tech-list">
                 <motion.div className="single-tech-div"
                     initial={{ opacity: 0 }}
