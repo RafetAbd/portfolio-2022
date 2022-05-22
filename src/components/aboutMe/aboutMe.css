@@ -3,6 +3,7 @@
     color: #FFFFFF;
     min-height: 100%;
     overflow-y: scroll;
+    
  }
 
  .who-i-am-div > p {
@@ -10,7 +11,7 @@
     font-size: 1.2em;
     font-weight: bold;
     text-shadow: #121212 0px 0px 10px;
-    /* text-align: justify; */
+    /* margin-left: auto; */
 }
 
 .texts-div {
@@ -52,16 +53,16 @@ h1:after {
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
     height: 100%;
 }
 
 img {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     border-radius: 2%;
     margin-top: 2%;
-    margin-left: auto;
     box-shadow: #121212 5px 5px 20px;
 }
 
@@ -86,7 +87,7 @@ img {
 @media screen and (max-width: 700px) {
   .who-i-am-div {
     /* margin: 5%; */
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
   }
 
@@ -102,8 +103,9 @@ img {
     width: 40%;
     height: 40%;
     border-radius: 2%;
+    justify-content: center;
     /* margin-top: 2%; */
-    margin-left: auto;
+    /* margin-left: auto; */
     box-shadow: #121212 5px 5px 20px;
 }
 }
