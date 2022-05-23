@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
 
-
     return (
         <div className="aboutme-main-div">
             <Navbar />
@@ -30,7 +29,6 @@ const AboutMe = () => {
                         I have a passion for creating, designing and building web applications. My friends see me as a self-motivated, fast learner who's always looking for new ways to improve himself.<br /><br />
                         I grew up in Iraq, came to the USA as a refugee and Currently living in Phoenix, Arizona. When I'm not trying to learn something new or improving my skills, I'm usually watching movies/series, listening to music, or hiking.
                     </motion.p>
-                    
                 </div>
             </div>
         </div>

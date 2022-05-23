@@ -11,7 +11,6 @@
     font-size: 1.2em;
     font-weight: bold;
     text-shadow: #121212 0px 0px 10px;
-    /* margin-left: auto; */
 }
 
 .texts-div {
@@ -86,8 +85,6 @@ img {
 
 @media screen and (max-width: 700px) {
   .who-i-am-div {
-    /* margin: 5%; */
-    /* display: flex; */
     flex-direction: column;
   }
 
@@ -104,8 +101,6 @@ img {
     height: 40%;
     border-radius: 2%;
     justify-content: center;
-    /* margin-top: 2%; */
-    /* margin-left: auto; */
     box-shadow: #121212 5px 5px 20px;
 }
 }
