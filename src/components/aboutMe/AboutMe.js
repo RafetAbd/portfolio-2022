@@ -25,9 +25,9 @@ const AboutMe = () => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1, duration: 1.5 }}
                     >
-                        <span className="hi-span">Hi</span>, I'm Rafet, a full-stack web developer and a former PBM operations consultant. I've worked in many different industries from healthcare to education to business operations.<br /><br />
-                        I have a passion for creating, designing and building web applications. My friends see me as a self-motivated, fast learner who's always looking for new ways to improve himself.<br /><br />
-                        I grew up in Iraq, came to the USA as a refugee and Currently living in Phoenix, Arizona. When I'm not trying to learn something new or improving my skills, I'm usually watching movies/series, listening to music, or hiking.
+                        <span className="hi-span">Hi</span>, I'm Rafet, a full-stack web developer and a former PBM operations consultant. I've worked in many different industries started from healthcare to education to business operations.<br /><br />
+                        I have a passion for creating, designing, and building web applications. My friends see me as a self-motivated, fast learner who's always looking for new ways to improve himself.<br /><br />
+                        I grew up in Iraq, came to the USA as a refugee, and Currently living in Phoenix, Arizona. When I'm not trying to learn something new or improve my skills, I usually watch movies/series, listen to music, or hike.
                     </motion.p>
                 </div>
             </div>
