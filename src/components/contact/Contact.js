@@ -12,7 +12,7 @@ const Contact = () => {
             transition={{ duration: 1.5, delay: 0.2 }}
         >
             <h1>Get In Touch</h1>
-            <p>Have a question, want to work together or just want to say hi?</p>
+            <p>Have a question, want to work together, or want to say hi?</p>
             <p>I'm just a click away.</p>
             <div className="constacts-list-div">
                 <motion.a href="https://www.linkedin.com/in/rafet-abdalgalil-46606a1a1/" target="_blank" rel="noopener noreferrer" className="contact-links" whileHover={{ scale: 1.5 }}>
