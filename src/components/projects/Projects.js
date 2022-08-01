@@ -28,7 +28,7 @@ const Projects = () => {
                         I've also got to work with Socket.IO to ensure a real-time update when one of the users adds a matched movie to their favorites.
                         </p>
                     </div>
-                    <a href="https://pick-amovie.herokuapp.com/" target="_blank" className="image-projects" rel="noreferrer"><img src='/Screen Shot 2022-05-18 at 11.37.11 AM.png' alt="pick-a-movie" className="project-img" /></a>
+                    <a href="https://pick-amovie.netlify.app/" target="_blank" className="image-projects" rel="noreferrer"><img src='/Screen Shot 2022-05-18 at 11.37.11 AM.png' alt="pick-a-movie" className="project-img" /></a>
                 </motion.div>
                 <hr />
                 <motion.div className="single-project-div"
