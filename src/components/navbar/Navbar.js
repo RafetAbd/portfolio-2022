@@ -28,7 +28,7 @@ const Navbar = () => {
                     <Link to="/aboutMe" className="navbar-links">About</Link>
                     <Link to="/technologies" className="navbar-links">Technologies</Link>
                     <Link to="/projects" className="navbar-links">Projects</Link>
-                    <a href="Rafet Abdalgalil - RESUME.pdf" className="navbar-links" target="_blank">Resume</a>
+                    <a href="Rafet Abdalgalil resume:temp.pdf" className="navbar-links" target="_blank">Resume</a>
                 </nav>
             )}
             <button className="btn" onClick={handleToggle}><img src="/PngItem_1784361.png" alt="three lines" /></button>
