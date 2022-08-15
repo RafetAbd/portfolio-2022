@@ -15,7 +15,7 @@ const AboutMe = () => {
                 transition={{ duration: 1 }}
                 >Who I am</motion.h1>
                 <div className="who-i-am-div">
-                    <motion.img src='/IMG_6192.jpg' alt="rafet" className="rafet-img"
+                    <motion.img src='/DSC05712 2.jpg' alt="rafet" className="rafet-img"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1.5 }}
